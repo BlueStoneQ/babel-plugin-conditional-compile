@@ -5,7 +5,7 @@ export default function (babel) {
   let isRemove = false
   
   return {
-    name: "babel-plugin-conditinal-compile", // not required
+    name: "babel-plugin-conditinal-compile-with-comment",
     visitor: {
       Program: {
         enter(path, state) {
