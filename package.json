@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-conditional-compile",
+  "name": "babel-plugin-conditional-compile-with-comment",
   "version": "1.0.0",
   "description": "babel babel-plugin conditional-compile",
   "type": "module",
