@@ -23,7 +23,7 @@ export default [
     output: {  
       file: 'dist/esm/index.js',  
       format: 'esm',  
-      name: 'MyLibrary',  
+      name: 'babelPluginConditionalCompile',  
     },
   },  
 
@@ -34,7 +34,7 @@ export default [
     output: {  
       file: 'dist/commonjs/index.js',  
       format: 'cjs',  
-      name: 'MyLibrary',  
+      name: 'babelPluginConditionalCompile',  
     },  
   },  
   
@@ -45,8 +45,7 @@ export default [
     output: {  
       file: 'dist/umd/my-library.js',  
       format: 'umd',  
-      name: 'MyLibrary',  
-      globals: {}, // if you have external dependencies  
+      name: 'babelPluginConditionalCompile',
     },
   },  
 ];
