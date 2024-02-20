@@ -1,17 +1,17 @@
 import babel from 'rollup-plugin-babel';  
-import commonjs from 'rollup-plugin-commonjs';  
-import resolve from 'rollup-plugin-node-resolve';  
+// import commonjs from 'rollup-plugin-commonjs';  
+// import resolve from 'rollup-plugin-node-resolve';  
 import { terser } from 'rollup-plugin-terser';
-import json from 'rollup-plugin-json';  
+// import json from 'rollup-plugin-json';  
 
 const commonConfig = {
   input: 'src/index.js',
   plugins: [  
     babel({ exclude: 'node_modules/**' }),  
-    resolve(),  
-    commonjs(),
+    // resolve(),  
+    // commonjs(),
     terser(),
-    json(),  
+    // json(),
   ],
 }
   
