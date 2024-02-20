@@ -31,7 +31,7 @@ yarn add --dev babel-plugin-conditional-compile
 ```json
 {
   "plugins": [
-    ["conditional-compile", {
+    ["conditional-compile-with-comment", {
       "targetPlat": "WX" // 配置当前编译的目标平台是微信
     }]
   ]

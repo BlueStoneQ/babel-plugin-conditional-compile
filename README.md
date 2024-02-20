@@ -30,7 +30,7 @@ Add the plugin to your Babel configuration file (e.g., `.babelrc` or `babel.conf
 ```json
 {
   "plugins": [
-    ["conditional-compile", {
+    ["conditional-compile-with-comment", {
       "targetPlat": "WX" // 配置当前编译的目标平台是微信
     }]
   ]
