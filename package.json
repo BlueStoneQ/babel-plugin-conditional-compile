@@ -21,6 +21,10 @@
     "babel-plugin",
     "conditional-compile"
   ],
+  "repository": {  
+    "type": "git",
+    "url": "https://github.com/BlueStoneQ/babel-plugin-conditional-compile.git"
+  },  
   "author": "qiaoyang",
   "license": "MIT",
   "dependencies": {
