@@ -21,8 +21,8 @@ export default function (babel) {
               leadingComments.forEach(comment => {
                 if (comment.value.trim().startsWith('ifdef') &&
                     !getIfdefCommentTargetPlat(comment).includes(targetPlat)) {
-                    nodePath.isRemove = true // 给当前节点打标记
-                    isRemove = true // 开启标识 给所有的后续节点打上true标记
+                  nodePath.isRemove = true // 给当前节点打标记
+                  isRemove = true // 开启标识 给所有的后续节点打上true标记
                 }
                 
                 if (comment.value.trim().startsWith('ifndef') &&
